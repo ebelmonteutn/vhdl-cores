@@ -76,7 +76,7 @@ xsim tb_alu_sim --runall
 
 | Versión | Contenido | Estado |
 |---------|-----------|--------|
-| 0.0.5 | ALU + contador + UART TX/RX funcional básica | Actual |
+| 0.0.5 | ALU + contador + UART TX/RX funcional básica | Experimental |
 | 0.1.0 | ALU + contador + UART TX/RX funcional básica + PC | Pendiente |
 | 0.2.0 | Testbenches (ALU, UART loopback, PC) + script xsim | Pendiente |
 | 0.3.0 | Refactor rotador parametrizable + package de operaciones ALU | Pendiente |
@@ -89,14 +89,6 @@ xsim tb_alu_sim --runall
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-## 💬 Notas sobre tu ALU
-
-- Revisa que las condiciones de overflow usen los operandos antes de saturación cuando no está activa la saturación.
-- Puedes separar saturación en una función: `function sat_add(a,b: signed; enable: boolean) return signed`
-- Considera hacer `acc_q` sólo se actualiza en flanco y toda la lógica combinacional en un único proceso o procesos separados (estás correcto pero se puede simplificar legibilidad).
 
 ---
 
