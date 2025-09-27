@@ -1,3 +1,4 @@
+-- SPDX-License-Identifier: MIT
 ----------------------------------------------------------------------------------
 -- Company: Universidad Tecnológica Nacional - Facultad Regional Buenos Aires
 -- Engineer: Enzo Belmonte
