@@ -70,15 +70,13 @@ xelab tb_alu -s tb_alu_sim
 xsim tb_alu_sim --runall
 ```
 
-(O bien usar `scripts/run_all_xsim.sh` cuando lo agregues.)
-
 ---
 
-## 🚀 Roadmap sugerido
+## 🚀 Roadmap 
 
 | Versión | Contenido | Estado |
 |---------|-----------|--------|
-| 0.0.5 | ALU + contador + UART TX/RX funcional básica | Pendiente |
+| 0.0.5 | ALU + contador + UART TX/RX funcional básica | Actual |
 | 0.1.0 | ALU + contador + UART TX/RX funcional básica + PC | Pendiente |
 | 0.2.0 | Testbenches (ALU, UART loopback, PC) + script xsim | Pendiente |
 | 0.3.0 | Refactor rotador parametrizable + package de operaciones ALU | Pendiente |
@@ -90,7 +88,7 @@ xsim tb_alu_sim --runall
 
 ## 📄 Licencia
 
-A decidir.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
