@@ -1,0 +1,58 @@
+# Vivado / Xilinx generated
+*.jou
+*.log
+*.str
+*.zip
+*.wdb
+*.dcp
+*.xml
+*.html
+*.xpr
+*.xsa
+*.ltx
+*.rpt
+
+# Vivado project structure / caches / runs
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.Xil/
+*.srcs/
+*.imports/
+*.webtalk/
+*.data/
+*.sdk/
+
+# Waves / simulation artifacts
+*.vcd
+*.wcfg
+*.wdb
+xsim.dir/
+
+# Temporary build dirs
+build/
+dist/
+tmp/
+temp/
+
+# Lock / OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python helper scripts cache (si luego agregas tooling)
+__pycache__/
+*.pyc
+
+# REUSE/License sidecar optional (ajusta si usas)
+*.license
+
+# Node / tools (por si algún día documentas con docusaurus, etc.)
+node_modules/
