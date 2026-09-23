@@ -1,22 +1,20 @@
 -- SPDX-License-Identifier: MIT
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: Universidad Tecnológica Nacional - Facultad Regional Buenos Aires
+-- Engineer: Enzo Belmonte
 -- 
 -- Create Date: 25.08.2024 18:53:52
--- Design Name: 
+-- Design Name: Parallel-load binary counter
 -- Module Name: myCntBinarioPl - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
+-- Project Name: VHDL Cores
+-- Target Devices: Not specified
+-- Tool Versions: Not specified
+-- Description: Binary counter with enable and parallel load.
 -- 
--- Dependencies: 
+-- Dependencies: IEEE.STD_LOGIC_1164, IEEE.NUMERIC_STD
 -- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
+-- Revision: 0.01 - File Created
+-- Additional Comments: None.
 ----------------------------------------------------------------------------------
 
 

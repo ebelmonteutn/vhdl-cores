@@ -1,22 +1,20 @@
 -- SPDX-License-Identifier: MIT
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: Universidad Tecnológica Nacional - Facultad Regional Buenos Aires
+-- Engineer: Enzo Belmonte
 -- 
 -- Create Date: 25.08.2024 19:18:55
--- Design Name: 
+-- Design Name: Terminal-count counter
 -- Module Name: myCnt2 - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
+-- Project Name: VHDL Cores
+-- Target Devices: Not specified
+-- Tool Versions: Not specified
+-- Description: Counter with programmable terminal count and pulse output.
 -- 
--- Dependencies: 
+-- Dependencies: IEEE.STD_LOGIC_1164, IEEE.NUMERIC_STD
 -- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
+-- Revision: 0.01 - File Created
+-- Additional Comments: None.
 ----------------------------------------------------------------------------------
 
 

@@ -4,18 +4,17 @@
 -- Engineer: Enzo Belmonte
 -- 
 -- Create Date: 21.10.2024 21:44:12
--- Design Name: 
+-- Design Name: Universal asynchronous receiver/transmitter
 -- Module Name: uart - Behavioral
 -- Project Name: UART
--- Target Devices: 
--- Tool Versions: 
+-- Target Devices: Not specified
+-- Tool Versions: Not specified
 -- Description:  UART
 -- 
--- Dependencies: 
+-- Dependencies: uartTx, uartRx, myCnt2
 -- 
 -- Revision: 1.0.21.10.2024.0
--- Revision 0.01 - File Created
--- Additional Comments: 
+-- Additional Comments: None.
 -- 
 ----------------------------------------------------------------------------------
 

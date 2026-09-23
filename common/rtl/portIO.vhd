@@ -4,19 +4,17 @@
 -- Engineer: Enzo Belmonte
 -- 
 -- Create Date: 21.10.2024 22:23:24
--- Design Name: 
+-- Design Name: Input/output port register
 -- Module Name: portIO - Behavioral
 -- Project Name: VHDL Cores
--- Target Devices: 
--- Tool Versions: 
--- Description: 
+-- Target Devices: Not specified
+-- Tool Versions: Not specified
+-- Description: Synchronous input sampling and output register.
 -- 
--- Dependencies: 
+-- Dependencies: IEEE.STD_LOGIC_1164
 -- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments: 
--- 
+-- Revision: 0.01 - File Created
+-- Additional Comments: None.
 ----------------------------------------------------------------------------------
 
 

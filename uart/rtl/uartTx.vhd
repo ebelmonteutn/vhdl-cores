@@ -4,18 +4,17 @@
 -- Engineer: Enzo Belmonte
 -- 
 -- Create Date: 21.10.2024 12:59:25
--- Design Name: 
+-- Design Name: UART transmitter
 -- Module Name: uartTx - Behavioral
 -- Project Name: UART
--- Target Devices: 
--- Tool Versions: 
+-- Target Devices: Not specified
+-- Tool Versions: Not specified
 -- Description:  Transmisor UART
 -- 
--- Dependencies: 
+-- Dependencies: myCnt2, IEEE.NUMERIC_STD
 -- 
 -- Revision: 1.0.21.10.2024.1
--- Revision 0.01 - File Created
--- Additional Comments: 
+-- Additional Comments: None.
 -- 
 ----------------------------------------------------------------------------------
 

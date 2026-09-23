@@ -1,22 +1,20 @@
 -- SPDX-License-Identifier: MIT
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: Universidad Tecnológica Nacional - Facultad Regional Buenos Aires
+-- Engineer: Enzo Belmonte
 -- 
 -- Create Date: 02.10.2024 19:35:26
--- Design Name: 
+-- Design Name: Arithmetic Logic Unit
 -- Module Name: alu - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
+-- Project Name: VHDL Cores
+-- Target Devices: Not specified
+-- Tool Versions: Not specified
+-- Description: Arithmetic and logic unit with status flags and saturation.
 -- 
--- Dependencies: 
+-- Dependencies: rot
 -- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
+-- Revision: 0.01 - File Created
+-- Additional Comments: The rot entity is not included in this repository.
 ----------------------------------------------------------------------------------
 
 
@@ -137,4 +135,3 @@ begin
     negative <= negative_q;
 
 end Behavioral;
-

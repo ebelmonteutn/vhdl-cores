@@ -1,25 +1,22 @@
+-- SPDX-License-Identifier: MIT
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: Universidad Tecnológica Nacional - Facultad Regional Buenos Aires
+-- Engineer: Enzo Belmonte
 -- 
 -- Create Date: 21.10.2024 23:30:45
--- Design Name: 
+-- Design Name: Program Counter
 -- Module Name: pc - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
+-- Project Name: VHDL Cores
+-- Target Devices: Not specified
+-- Tool Versions: Not specified
+-- Description: Program counter with increment and parallel address load.
 -- 
--- Dependencies: 
+-- Dependencies: myCntBinarioPl, pcMem
 -- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
+-- Revision: 0.01 - File Created
+-- Additional Comments: The pcMem entity is not included in this repository.
 -- 
-----------------------------------------------------------------------------------
-
-
-library IEEE;
+--------------------------------------------------------------------------------library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 -- Uncomment the following library declaration if using
