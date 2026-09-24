@@ -43,7 +43,7 @@ common/rtl/        # Contadores y puerto de E/S compartidos
 | Saturación | Lógica de saturación repetitiva | Centralizar en función o package |
 | Flags | Se calculan tras multiplexar acc_d | Revisa condiciones de overflow y orden de evaluación |
 | UART Baud | Usa un tick directo por bit | Mejorar con oversampling (x8/x16) para mayor robustez |
-| Pruebas | No hay testbenches en el repositorio | Crear pruebas para ALU, UART y PC |
+| Pruebas | Hay testbenches para contadores, `portIO` y UART | Completar pruebas para ALU y PC |
 | Parametrización | `myCntBinarioPl` declara `N`, pero su interfaz mantiene 10 bits | Hacer que el ancho de datos use el generic |
 | SPDX | Todos los fuentes VHDL deben conservar la licencia MIT | Mantener `-- SPDX-License-Identifier: MIT` como primera línea |
 
@@ -51,9 +51,25 @@ common/rtl/        # Contadores y puerto de E/S compartidos
 
 ## 🧪 Simulación
 
-Todavía no hay scripts ni testbenches versionados. Antes de simular `alu.vhd` o
-`pc.vhd` hay que incorporar sus dependencias faltantes (`rot` y `pcMem`,
-respectivamente) y crear los bancos de prueba correspondientes.
+Los testbenches están en `tb/`. El banco `uart_tb.vhd` usa la prueba UART
+original del proyecto TPs-TD1; `tb_myCnt2.vhd`, `tb_myCntBinarioPl.vhd` y
+`tb_portIO.vhd` incluyen aserciones automáticas.
+
+Con Vivado Simulator:
+
+```powershell
+$vivado = "D:\AMDDesignTools\2025.2\Vivado\bin"
+xvhdl.bat -2008 common/rtl/myCnt2.vhd common/rtl/myCntBinarioPl.vhd `
+    common/rtl/portIO.vhd uart/rtl/uartTx.vhd uart/rtl/uartRx.vhd `
+    uart/rtl/uart.vhd tb/tb_myCnt2.vhd tb/tb_myCntBinarioPl.vhd `
+    tb/tb_portIO.vhd tb/uart_tb.vhd
+xelab.bat work.tb_myCnt2 -s tb_myCnt2_sim
+xsim.bat tb_myCnt2_sim --runall
+```
+
+El testbench de UART está orientado a inspección de ondas y finaliza con
+`wait`; debe ejecutarse desde la interfaz gráfica de Vivado o detenerse
+manualmente después de observar la transmisión y recepción.
 
 ---
 
